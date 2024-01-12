@@ -1,0 +1,155 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF7E6;
+    font-family: 'Hi Melody', sans-serif;
+    margin-top: 5px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15%;
+    background-color: white;
+}
+
+.logo {
+    width: 50vw;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+li {
+    margin-right: 5vw;
+}
+  
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+  
+#features {
+    display: flex;
+    justify-content: center;
+}
+
+#video {
+    margin-top: 60px;
+    max-width: 600px;
+    width: 100% auto;
+}
+
+.description {
+    padding-top: 100px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#specs {
+    display: flex;
+    padding: 5%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.axe-image{
+    height: auto;
+}
+
+.specs1 {
+    padding: 0 2%;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#pricing {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 40px;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.product > h1 {
+    display: block;
+    text-align: center;
+    height: 100px;
+}
+
+.product > h2 {
+    font-size: 50px;
+    text-align: center;
+    height: 50px;
+}
+
+.product > ol {
+    text-align: center;
+    height: 30px;
+}
+
+.product > ol > li {
+    margin: 20px 0;
+}
+
+.button {
+    background-color:burlywood;
+    height: 50px;
+    margin-top: 220px;
+}
+
+#form {
+    display: grid;
+    justify-content: center;
+    margin: 100px;
+}
+
+#form > label {
+    margin-bottom: 20px;
+    display: grid;
+    text-align: center;
+}
+
+#email {
+    width: 200px;
+    color:darkgoldenrod;
+    height: 25px;
+}
+
+#submit {
+    height: 40px;
+    background-color:burlywood;
+}
